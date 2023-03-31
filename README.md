@@ -40,8 +40,8 @@ Official implementation of Word-As-Image for Semantic Typography paper.
 
 1. Clone the repo:
 ```bash
-git clone https://github.com/WordAsImage/.git
-cd word-as-image
+git clone https://github.com/WordAsImage/Word-As-Image.git
+cd Word-As-Image
 ```
 2. Create a new conda environment and install the libraries:
 ```bash
