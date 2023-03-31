@@ -1,0 +1,46 @@
+baseline:
+  parent_config: ''
+  save:
+    init: true
+    image: true
+    video: true
+    video_frame_freq: 1
+  trainable:
+    point: true
+  lr_base:
+    point: 1
+  lr:
+    lr_init: 0.002
+    lr_final: 0.0008
+    lr_delay_mult: 0.1
+    lr_delay_steps: 100
+  num_iter: 500
+  render_size: 600
+  cut_size: 512
+  level_of_cc: 0 # 0 - original number of cc / 1 - recommended / 2 - more control points
+  seed: 0
+  diffusion:
+    model: "runwayml/stable-diffusion-v1-5"
+    timesteps: 1000
+    guidance_scale: 100
+  loss:
+    use_sds_loss: true
+    tone:
+      use_tone_loss: false
+    conformal:
+      use_conformal_loss: false
+
+conformal_0.5_dist_pixel_100_kernel201:
+  parent_config: baseline
+  level_of_cc: 1
+  loss:
+    tone:
+      use_tone_loss: true
+      dist_loss_weight: 100
+      pixel_dist_kernel_blur: 201
+      pixel_dist_sigma: 30
+    conformal:
+      use_conformal_loss: true
+      angeles_w: 0.5
+
+
