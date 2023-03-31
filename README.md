@@ -75,7 +75,7 @@ python setup.py install
 ## Run Experiments 
 ```bash
 conda activate word
-cd word-as-image
+cd Word-As-Image
 
 # Please modify the parameters accordingly in the file and run:
 bash run_word_as_image.sh
