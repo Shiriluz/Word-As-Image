@@ -1,8 +1,8 @@
-# Word-As-Image for Semantic Typography
+# Word-As-Image for Semantic Typography (SIGGRAPH 2023)
 
 
 
-<!-- [![arXiv](https://img.shields.io/badge/📃-arXiv%20-red.svg)](https://arxiv.org/abs/2303.01818) -->
+[![arXiv](https://img.shields.io/badge/📃-arXiv%20-red.svg)](https://arxiv.org/abs/2303.01818)
 [![webpage](https://img.shields.io/badge/🌐-Website%20-blue.svg)](https://wordasimage.github.io/Word-As-Image-Page/) 
 [![Huggingface space](https://img.shields.io/badge/🤗-Demo%20-yellow.svg)](https://huggingface.co/spaces/SemanticTypography/Word-As-Image)
 [![Youtube](https://img.shields.io/badge/📽️-Video%20-orchid.svg)](https://www.youtube.com/watch?v=9D12a6RCQaw)
@@ -15,6 +15,9 @@
 A few examples of our <b>W</b>ord-<b>A</b>s-<b>I</b>mage illustrations in various fonts and for different textual concept. The semantically adjusted letters are created
 completely automatically using our method, and can then be used for further creative design as we illustrate here.<br><br>
 
+> Shir Iluz*, Yael Vinker*, Amir Hertz, Daniel Berio, Daniel Cohen-Or, Ariel Shamir    
+> \* Denotes equal contribution  
+>
 >A word-as-image is a semantic typography technique where a word illustration
 presents a visualization of the meaning of the word, while also
 preserving its readability. We present a method to create word-as-image
@@ -129,6 +132,19 @@ If the outcome does not meet your quality expectations, you could try the follow
 
 ## Acknowledgement
 Our implementation is based ob Stable Diffusion text-to-image model from Hugging Face's [Diffusers](https://github.com/huggingface/diffusers) library, combined with [Diffvg](https://github.com/BachiLi/diffvg). The framework is built on [Live](https://github.com/Picsart-AI-Research/LIVE-Layerwise-Image-Vectorization).
-
+    
+## Citation
+If you use this code for your research, please cite the following work: 
+```
+@misc{iluz2023wordasimage,
+      title={Word-As-Image for Semantic Typography}, 
+      author={Shir Iluz and Yael Vinker and Amir Hertz and Daniel Berio and Daniel Cohen-Or and Ariel Shamir},
+      year={2023},
+      eprint={2303.01818},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+    
 ## Licence
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
