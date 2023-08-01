@@ -136,13 +136,23 @@ Our implementation is based ob Stable Diffusion text-to-image model from Hugging
 ## Citation
 If you use this code for your research, please cite the following work: 
 ```
-@misc{iluz2023wordasimage,
-      title={Word-As-Image for Semantic Typography}, 
-      author={Shir Iluz and Yael Vinker and Amir Hertz and Daniel Berio and Daniel Cohen-Or and Ariel Shamir},
-      year={2023},
-      eprint={2303.01818},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{IluzVinker2023,
+    author = {Iluz, Shir and Vinker, Yael and Hertz, Amir and Berio, Daniel and Cohen-Or, Daniel and Shamir, Ariel},
+    title = {Word-As-Image for Semantic Typography},
+    year = {2023},
+    issue_date = {August 2023},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    volume = {42},
+    number = {4},
+    issn = {0730-0301},
+    url = {https://doi.org/10.1145/3592123},
+    doi = {10.1145/3592123},
+    journal = {ACM Trans. Graph.},
+    month = {jul},
+    articleno = {151},
+    numpages = {11},
+    keywords = {semantic typography, SVG, stable diffusion, fonts}
 }
 ```
     
