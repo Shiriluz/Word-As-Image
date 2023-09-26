@@ -1,4 +1,5 @@
-# Word-As-Image for Semantic Typography (SIGGRAPH 2023 - Honorable Mention Award)
+# Word-As-Image for Semantic Typography
+# (SIGGRAPH 2023 - Honorable Mention Award)
 
 
 
